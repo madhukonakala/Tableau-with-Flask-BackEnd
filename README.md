@@ -1,21 +1,22 @@
-# Tableau WebApp with Flask backend
-Web Server with Python Flask back-end and authentication, with login and a Tableau dashboard management.
+# Cosmetic Insights: Navigating Cosmetics Trends with Tableau
 
-# Usage
-You just need to launch the main.py script. It will start a web server on localhost:5000.
-There's need to be a Tableau server running on 10.0.55.1  (otherwise you'll have to change the address in the files)
-```
-Login example:
-username:   user1  
-password:   yourpassword
-```
-# Login form example
-![alt text](login_form.PNG)
+This project visualizes cosmetic data using Tableau and presents dashboards and stories through a Flask web interface.
 
-# Dashboard page example
-![alt text](dashboard.PNG)
+## Features
 
-# Built with
-- Python 3 (Flask framework)
-- Tableau (Rest API and JS API)
-- HTML / CSS / JS
+- Tableau Dashboards Embedded in Web App
+- Product Trends and Suitability Insights
+- Flask-Powered Interface
+- Based on Kaggle Dataset: Cosmetics
+
+## Demo Videos
+
+- [Dashboard 1](https://drive.google.com/file/d/1x63UzlNd-84V6gZ4DhA79jm7ISlIyg10/view)
+- [Dashboard 2](https://drive.google.com/file/d/1bkT7dATbR-RJl8byCBss26avBU0qPzyM/view)
+- [Story](https://drive.google.com/file/d/19n5bhOdDt-cDrJMO_r9EWmxzc-6G3mn4/view)
+
+## How to Run
+
+```bash
+pip install flask
+python app.py
